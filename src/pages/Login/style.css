@@ -23,19 +23,22 @@ body {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   text-align: center;
   width: 100%;
-  max-width: 500px;
+  width: 350px;
+  height: 650px;
+  
 }
 
 .logo {
-  width: 320px;
+  max-width: 100%;
   height: auto;
-  margin-bottom: 20px;
+
+  
 }
 
 h1 {
   font-size: 2.0em;
   color: #fff;
-  margin-bottom: 20px;
+  margin-top: 1px;
 }
 
 .login-form {
@@ -48,7 +51,7 @@ h1 {
   align-items: center;
   margin-bottom: 15px;
   border: 1px solid #ddd;
-  border-radius: 8px;
+  border-radius: 25px;
   padding: 10px;
   background-color: #f9f9f9;
 }
@@ -70,7 +73,7 @@ input {
   background-color: #033d63;
   color: white;
   border: none;
-  border-radius: 8px;
+  border-radius: 15px;
   padding: 10px;
   font-size: 1em;
   cursor: pointer;
@@ -94,4 +97,15 @@ label {
   color: white;
   line-height: 1.8;
   
+}
+
+@media (max-width: 768px) {
+  body {
+    background-color: white; /* Remove o fundo da página */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }

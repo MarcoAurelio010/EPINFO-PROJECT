@@ -3,6 +3,18 @@ import './style.css';
 import logo from '../../assets/epinfoLogo.png'
 
 function Login() {
+
+  const users = [{
+  registro: 'EP13342',
+  nome: 'Gilmar Santos',
+  email: 'gilsan12@gmail.com'
+
+  }, {
+  registro: 'EP24594',
+  nome: 'Manuela Silva',
+  email: 'manusilva32@gmail.com'
+  }
+]
   return (
     <div className="login-container">
       <div className="login-card">
