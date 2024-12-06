@@ -12,8 +12,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
-  width: 100%;
+  width: 350px;
+  height: 650px;
 }
 
 .login-card {
@@ -23,8 +23,7 @@ body {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   text-align: center;
   width: 100%;
-  width: 350px;
-  height: 650px;
+  height: 100%;
   
 }
 
@@ -101,7 +100,7 @@ label {
 
 @media (max-width: 768px) {
   body {
-    background-color: white; /* Remove o fundo da página */
+    background-color: white;
     margin: 0;
     padding: 0;
     display: flex;
