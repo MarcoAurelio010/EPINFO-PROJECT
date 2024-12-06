@@ -13,10 +13,10 @@ function Login() {
   // Definindo usuários para verificação
   const users = [
     {
-      registro: 'EP13342',
+      registro: '1',
       nome: 'Gilmar Santos',
       email: 'gilsan12@gmail.com',
-      senha: 'senha123',
+      senha: '1',
     },
     {
       registro: 'EP24594',
@@ -27,7 +27,7 @@ function Login() {
   ];
 
   const handleLogin = (e) => {
-    e.preventDefault();
+    e.preventDefault();  // Evita que a página seja recarregada
 
     // Verificar se o usuário existe e a senha está correta
     const usuario = users.find(
@@ -37,7 +37,7 @@ function Login() {
     if (usuario) {
       setPasswordError(false);
       // Se o login for bem-sucedido, redirecionar para a página Home
-      navigate('./pages/Capacete-EPI');
+      navigate('./pages/Home');
     } else {
       setPasswordError(true);
       // Caso contrário, mostrar mensagem de erro
