@@ -10,18 +10,16 @@ import LuvasInfo from "./pages/Luva-EPI";
 import BotasInfo from "./pages/Botas-EPI";
 import OculosInfo from "./pages/Oculos-EPI";
 
-
 ReactDOM.createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Router>  {/* Envolvendo toda a aplicação com Router */}
       <Routes>
         <Route path="/" element={<Login />} />  {/* Rota para a página de login */}
         <Route path="/home" element={<Home />} />  {/* Rota para a página Home */}
-        <Route path="/capacete" element={<CapaceteInfo/>} />  {/* Rota para a página Capacete */}
-        <Route path="/luvas" element={<LuvasInfo/>} />  {/* Rota para a página Capacete */}
-        <Route path="/botas" element={<BotasInfo/>} />  {/* Rota para a página Capacete */}
-        <Route path="/oculos" element={<OculosInfo/>} />  {/* Rota para a página Capacete */}
-      
+        <Route path="/capacete" element={<CapaceteInfo/>} />  {/* Rota para a página de Capacete */}
+        <Route path="/luvas" element={<LuvasInfo/>} />  {/* Rota para a página de Luvas */}
+        <Route path="/botas" element={<BotasInfo/>} />  {/* Rota para a página de Botas */}
+        <Route path="/oculos" element={<OculosInfo/>} />  {/* Rota para a página de Óculos */}
       </Routes>
     </Router>
   </StrictMode>
