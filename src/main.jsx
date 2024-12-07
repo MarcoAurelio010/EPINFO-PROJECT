@@ -13,8 +13,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Router>  {/* Envolvendo toda a aplicação com Router */}
       <Routes>
         <Route path="/" element={<Login />} />  {/* Rota para a página de login */}
-        <Route path="/Home" element={<Home />} />  {/* Rota para a página Home */}
-        <Route path="/Capacete" element={<App/>} />  {/* Rota para a página Home */}
+        <Route path="/home" element={<Home />} />  {/* Rota para a página Home */}
+        <Route path="/capacete" element={<App/>} />  {/* Rota para a página Home */}
       </Routes>
     </Router>
   </StrictMode>
