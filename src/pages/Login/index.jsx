@@ -37,7 +37,7 @@ function Login() {
     if (usuario) {
       setPasswordError(false);
       // Se o login for bem-sucedido, redirecionar para a página Home
-      navigate('./pages/Home');
+      navigate('/home');
     } else {
       setPasswordError(true);
       // Caso contrário, mostrar mensagem de erro
