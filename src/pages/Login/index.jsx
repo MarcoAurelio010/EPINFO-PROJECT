@@ -37,7 +37,7 @@ function Login() {
     if (usuario) {
       setPasswordError(false);
       // Se o login for bem-sucedido, redirecionar para a página Home
-      navigate('./pages/Home');
+      navigate('/home');
     } else {
       setPasswordError(true);
       // Caso contrário, mostrar mensagem de erro
@@ -47,7 +47,7 @@ function Login() {
 
   return (
     <div className="min-h-screen flex justify-center items-center bg-gradient-to-b from-blue-800 to-blue-900">
-      <div className="bg-gradient-to-b from-cyan-400 to-cyan-600 w-full h-screen sm:h-auto sm:w-full sm:max-w-md sm:rounded-lg p-8 shadow-lg text-center">
+      <div className="bg-gradient-to-b from-cyan-300 to-cyan-600 w-full h-screen sm:h-auto sm:w-full sm:max-w-md sm:rounded-lg p-8 shadow-lg text-center">
         <img
           src={logo}
           alt="Logo EPINFO"
